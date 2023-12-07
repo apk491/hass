@@ -1,0 +1,363 @@
+HOME ASSISTANT URLS
+energy: /energy
+map: /map
+logbook: /logbook
+history: /history
+calendar: /calendar
+media: /media-browser/browser
+terminal: /core_ssh/ingress
+todo: /todo?entity_id=todo.shopping_list
+profile: /profile
+
+addons:
+  addons: /hassio/dashboard
+  adsb: /f1c878cb_adsb-multi-portal-feeder/ingress
+  backups: /cebe7a76_hassio_google_drive_backup/ingress
+  browser_mod: /browser-mod
+  esphome: /5c53de3b_esphome/ingress
+  glances: /a0d7b954_glances/ingress
+  go2rtc: /a0d7b954_glances/ingress
+  hacs: /a0d7b954_glances/ingress
+  z2m: /45df7312_zigbee2mqtt/ingress
+  ewelink: /hassio/addon/f4f71350_ewelink_smart_home_slug/info
+  mqtt: /hassio/addon/core_mosquitto/info
+  samba: /hassio/addon/core_samba/info
+  ssh: /hassio/addon/core_ssh/info
+
+editors:
+  file: /core_configurator/ingress
+  vscode: /a0d7b954_vscode/ingress
+
+devtools:
+  yaml: /developer-tools/yaml
+  states: /developer-tools/state
+  services: /developer-tools/service
+  template: /developer-tools/template
+  events: /developer-tools/event
+  statistics: /developer-tools/statistics
+  assist: /developer-tools/assist
+
+assistants:
+  assistants: /config/voice-assistants/assistants
+  expose: /config/voice-assistants/expose
+  assist_dev: /developer-tools/assist
+
+config:
+  hass_cloud: /config/cloud/account
+  automations: /config/automation/dashboard
+  scenes: /config/scene/dashboard
+  scripts: /config/script/dashboard
+  areas: /config/areas/dashboard
+  zones: /config/zone
+  dashboards: /config/lovelace/dashboards
+  tags: /config/tags
+
+devices:
+  integration: /config/integrations/dashboard
+  devices: /config/devices/dashboard
+  entities: /config/entities
+  helpers: /config/helpers
+
+people:
+  people: /config/person
+  uesrs: /config/users
+
+system:
+  system: /config/system
+  general: /config/general
+  updates: /config/updates
+  repairs: /config/repairs
+  logs: /config/logs
+  backups: /hassio/backups
+  network: /config/network
+  storage: /config/storage
+  hardware: /config/hardware
+
+
+energy: /energy
+map: /map
+logbook: /logbook
+history: /history
+calendar: /calendar
+media: /media-browser/browser
+terminal: /core_ssh/ingress
+todo: /todo?entity_id=todo.shopping_list
+profile: /profile
+addons: /hassio/dashboard
+adsb: /f1c878cb_adsb-multi-portal-feeder/ingress
+backups: /cebe7a76_hassio_google_drive_backup/ingress
+browser_mod: /browser-mod
+esphome: /5c53de3b_esphome/ingress
+glances: /a0d7b954_glances/ingress
+go2rtc: /a0d7b954_glances/ingress
+hacs: /a0d7b954_glances/ingress
+z2m: /45df7312_zigbee2mqtt/ingress
+ewelink: /hassio/addon/f4f71350_ewelink_smart_home_slug/info
+mqtt: /hassio/addon/core_mosquitto/info
+samba: /hassio/addon/core_samba/info
+ssh: /hassio/addon/core_ssh/info
+file: /core_configurator/ingress
+vscode: /a0d7b954_vscode/ingress
+yaml: /developer-tools/yaml
+states: /developer-tools/state
+services: /developer-tools/service
+template: /developer-tools/template
+events: /developer-tools/event
+statistics: /developer-tools/statistics
+assist: /developer-tools/assist
+assistants: /config/voice-assistants/assistants
+expose: /config/voice-assistants/expose
+assist_dev: /developer-tools/assist
+hass_cloud: /config/cloud/account
+automations: /config/automation/dashboard
+scenes: /config/scene/dashboard
+scripts: /config/script/dashboard
+areas: /config/areas/dashboard
+zones: /config/zone
+dashboards: /config/lovelace/dashboards
+tags: /config/tags
+integration: /config/integrations/dashboard
+devices: /config/devices/dashboard
+entities: /config/entities
+helpers: /config/helpers
+people: /config/person
+uesrs: /config/users
+system: /config/system
+general: /config/general
+updates: /config/updates
+repairs: /config/repairs
+logs: /config/logs
+backups: /hassio/backups
+network: /config/network
+storage: /config/storage
+hardware: /config/hardware
+
+
+- type: weblink
+  name: Energy
+  icon: mdi:circle
+  url: /energy
+- type: weblink
+  name: Map
+  icon: mdi:circle
+  url: /map
+- type: weblink
+  name: Logbook
+  icon: mdi:circle
+  url: /logbook
+- type: weblink
+  name: History
+  icon: mdi:circle
+  url: /history
+- type: weblink
+  name: Calendar
+  icon: mdi:circle
+  url: /calendar
+- type: weblink
+  name: Media
+  icon: mdi:circle
+  url: /media-browser/browser
+- type: weblink
+  name: Terminal
+  icon: mdi:circle
+  url: /core_ssh/ingress
+- type: weblink
+  name: Todo
+  icon: mdi:circle
+  url: /todo?entity_id=todo.shopping_list
+- type: weblink
+  name: Profile
+  icon: mdi:circle
+  url: /profile
+- type: weblink
+  name: Addons
+  icon: mdi:circle
+  url: /hassio/dashboard
+- type: weblink
+  name: Adsb
+  icon: mdi:circle
+  url: /f1c878cb_adsb-multi-portal-feeder/ingress
+- type: weblink
+  name: Backups
+  icon: mdi:circle
+  url: /cebe7a76_hassio_google_drive_backup/ingress
+- type: weblink
+  name: Browser_Mod
+  icon: mdi:circle
+  url: /browser-mod
+- type: weblink
+  name: Esphome
+  icon: mdi:circle
+  url: /5c53de3b_esphome/ingress
+- type: weblink
+  name: Glances
+  icon: mdi:circle
+  url: /a0d7b954_glances/ingress
+- type: weblink
+  name: Go2Rtc
+  icon: mdi:circle
+  url: /a0d7b954_glances/ingress
+- type: weblink
+  name: Hacs
+  icon: mdi:circle
+  url: /a0d7b954_glances/ingress
+- type: weblink
+  name: Z2M
+  icon: mdi:circle
+  url: /45df7312_zigbee2mqtt/ingress
+- type: weblink
+  name: Ewelink
+  icon: mdi:circle
+  url: /hassio/addon/f4f71350_ewelink_smart_home_slug/info
+- type: weblink
+  name: Mqtt
+  icon: mdi:circle
+  url: /hassio/addon/core_mosquitto/info
+- type: weblink
+  name: Samba
+  icon: mdi:circle
+  url: /hassio/addon/core_samba/info
+- type: weblink
+  name: Ssh
+  icon: mdi:circle
+  url: /hassio/addon/core_ssh/info
+- type: weblink
+  name: File
+  icon: mdi:circle
+  url: /core_configurator/ingress
+- type: weblink
+  name: Vscode
+  icon: mdi:circle
+  url: /a0d7b954_vscode/ingress
+- type: weblink
+  name: Yaml
+  icon: mdi:circle
+  url: /developer-tools/yaml
+- type: weblink
+  name: States
+  icon: mdi:circle
+  url: /developer-tools/state
+- type: weblink
+  name: Services
+  icon: mdi:circle
+  url: /developer-tools/service
+- type: weblink
+  name: Template
+  icon: mdi:circle
+  url: /developer-tools/template
+- type: weblink
+  name: Events
+  icon: mdi:circle
+  url: /developer-tools/event
+- type: weblink
+  name: Statistics
+  icon: mdi:circle
+  url: /developer-tools/statistics
+- type: weblink
+  name: Assist
+  icon: mdi:circle
+  url: /developer-tools/assist
+- type: weblink
+  name: Assistants
+  icon: mdi:circle
+  url: /config/voice-assistants/assistants
+- type: weblink
+  name: Expose
+  icon: mdi:circle
+  url: /config/voice-assistants/expose
+- type: weblink
+  name: Assist_Dev
+  icon: mdi:circle
+  url: /developer-tools/assist
+- type: weblink
+  name: Hass_Cloud
+  icon: mdi:circle
+  url: /config/cloud/account
+- type: weblink
+  name: Automations
+  icon: mdi:circle
+  url: /config/automation/dashboard
+- type: weblink
+  name: Scenes
+  icon: mdi:circle
+  url: /config/scene/dashboard
+- type: weblink
+  name: Scripts
+  icon: mdi:circle
+  url: /config/script/dashboard
+- type: weblink
+  name: Areas
+  icon: mdi:circle
+  url: /config/areas/dashboard
+- type: weblink
+  name: Zones
+  icon: mdi:circle
+  url: /config/zone
+- type: weblink
+  name: Dashboards
+  icon: mdi:circle
+  url: /config/lovelace/dashboards
+- type: weblink
+  name: Tags
+  icon: mdi:circle
+  url: /config/tags
+- type: weblink
+  name: Integration
+  icon: mdi:circle
+  url: /config/integrations/dashboard
+- type: weblink
+  name: Devices
+  icon: mdi:circle
+  url: /config/devices/dashboard
+- type: weblink
+  name: Entities
+  icon: mdi:circle
+  url: /config/entities
+- type: weblink
+  name: Helpers
+  icon: mdi:circle
+  url: /config/helpers
+- type: weblink
+  name: People
+  icon: mdi:circle
+  url: /config/person
+- type: weblink
+  name: Uesrs
+  icon: mdi:circle
+  url: /config/users
+- type: weblink
+  name: System
+  icon: mdi:circle
+  url: /config/system
+- type: weblink
+  name: General
+  icon: mdi:circle
+  url: /config/general
+- type: weblink
+  name: Updates
+  icon: mdi:circle
+  url: /config/updates
+- type: weblink
+  name: Repairs
+  icon: mdi:circle
+  url: /config/repairs
+- type: weblink
+  name: Logs
+  icon: mdi:circle
+  url: /config/logs
+- type: weblink
+  name: Backups
+  icon: mdi:circle
+  url: /hassio/backups
+- type: weblink
+  name: Network
+  icon: mdi:circle
+  url: /config/network
+- type: weblink
+  name: Storage
+  icon: mdi:circle
+  url: /config/storage
+- type: weblink
+  name: Hardware
+  icon: mdi:circle
+  url: /config/hardware
